@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="./Styles.css">
+   <title>Viagem dos sonhos</title>
+</head>
+<body>
+    <! –Semântica Cabeçalho da Página–>
+<header class="container-fluid p-2 bg-warning text-center"> <! –Ocupar 100% da tela, p2 é o pading x0,5, bg fundo laranja, texte alinhado ao centro–>
+
+
+    <! –Menu de Navegação–>
+    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Viagem dos Sonhos</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container-fluid collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="bg-warning navbar-nav navbar-dark">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-cart4"></i></a>
+              </li>             
+            </ul>
+          </div>
+        </div>
+        
+      </nav>
+      <br>
+      <br>
+    
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imagens/carousel/valfenda.jpg" class="d-block w-100" alt="..." width="800" height="300">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Das Cidades mágicas dos Elfos</h5>
+                <p>A incrível morada dos Elfos em Valfenda.</p>
+              </div>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <img src="./imagens/carousel/mordor.jpg" class="d-block w-100" alt="..." width="800" height="300">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>De calorosos vulcões</h5>
+                  <p>De J. R. R. Tolkien, Mordor é a região ocupada e controlada por Sauron, no sudeste do noroeste da Terra Média e ao leste do Anduin, o grande rio. Orodruin, um vulcão em Mordor, era o destino da Sociedade do Anel (e mais tarde Frodo Baggins e Samwise Gamgee) na missão de destruir o Um Anel.</p>
+                </div>
+              </div>
+
+          <div class="carousel-item">
+            <img src="./imagens/carousel/argonats.jpg" class="d-block w-100" alt="..." width="800" height="300">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>A estátuas gigantescas</h5>
+              <p>As Argonath, também conhecidas em língua comum como o Portão dos Reis, são um dos monumentos mais emblemáticos e impressionantes da Terra Média. São constituídas por dois enormes pilares esculpidos à semelhança de Isildur e Anárion, os dois filhos de Elendil de Númenor e fundadores do reino de Gondor.</p>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <img src="./imagens/carousel/edoras.png" class="d-block w-100" alt="..." width="800" height="300">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cidades pequenas de campo aberto</h5>
+              <p>Em uma colina, por entre muralhas e cercas-vivas. No centro, estava Meduseld, o palácio dourado (morada do rei Théoden, rei de Rohan, senhor dos cavaleiros).</p>
+            </div>
+          </div> 
+
+          <div class="carousel-item">
+            <img src="./imagens/carousel/condado.png" class="d-block w-100" alt="..." width="800" height="300">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>A vida pacata dos hobbits</h5>
+              <p>O Condado é descrito como uma terra pequena mas bonita e frutífera, amada por seus habitantes. Os Hobbits possuem um extensivo sistema de agricultura no Condado mas não são industrializados. Vários recursos podem ser encontrados no Condado, incluindo cereais, frutas, madeira e erva-de-fumo.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="./imagens/carousel/gondor.jpg" class="d-block w-100" alt="..." width="800" height="300">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Uma excelente vista de Mordor da cidade de Gondor. </h5>
+              <p>Gondor era um nome de reino e não uma região, mas as terras interiores de Gondor ficavam ao longo da costa da Terra-média e ao longo do curso sul do Anduin.</p>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+</header>
+
+<section class="container-fluid bg-light text-center p-2">
+     
+    <h2>Conheça nossos pacotes</h2>
+    
+         <p>
+            "Para você que gosta de aventuras inesquecíveis, temos pacotes incríveis, onde você pode passar por terrar inóspitas como Mordor e finalizar o seu dia com uma boa vista da torre branca de Gondor. Aos amantes de cavalos temos a cidade de Horan, onde o senhor de todos os cavalos mora e também podemos seguir viagem para uma cidadezinha pacata de pessoas acolhedoras como os Hobits, para quem gosta de um bom fumo é la mesmo que irá encontrar e não esqueça de comprar para seus amigos.
+         </p>    <br><br>
+             <a href="https://www.lipsum.com/"></a>
+             <br>
+        </p>       
+
+        
+
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col bg-body-secondary">
+              <div class="card h-100 bg-warning-subtle">
+                <img src="./imagens/carousel/mordor.jpg" class="card-img-top" alt="..." width="200" height="300">
+                <div class="card-body">
+                  <h5 class="card-title">Mordor</h5>
+                  <h1 class="card-subtitle">R$ 10.000,00</h1>
+                  <p class="card-text">Conheça o vulcão mais incrível da terra média.</p>
+                </div>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col bg-body-secondary link-offset-1-hover">
+              <div class="card h-100 bg-warning-subtle">
+                <img src="./imagens/carousel/condado.png" class="card-img-top" alt="..." width="200" height="300">
+                <div class="card-body">
+                  <h5 class="card-title">Condado</h5>
+                  <h1 class="card-subtitle">R$ 15.000,00</h1>
+                  <p class="card-text">Aproveite os melhores fumos neste local incrível.</p>
+                </div>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col bg-body-secondary link-offset-1-hover">
+              <div class="card h-100 bg-warning-subtle">
+                <img src="./imagens/carousel/edoras.png" class="card-img-top" alt="..." width="200" height="300">
+                <div class="card-body">
+                  <h5 class="card-title">Rohan</h5>
+                  <h1 class="card-subtitle">R$ 20.000,00</h1>
+                  <p class="card-text">Melhores passeios a cavalo do planeta.</p>
+                </div>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col bg-body-secondary link-offset-1-hover">
+                <div class="card h-100 bg-warning-subtle">
+                  <img src="./imagens/carousel/gondor.jpg" class="card-img-top" alt="..." width="200" height="300">
+                  <div class="card-body">
+                    <h5 class="card-title">Gondor</h5>
+                    <h1 class="card-subtitle">R$ 50.000,00</h1>
+                    <p class="card-text">Desfrute de uma incrível vista e para quem é amante de literatura, temos uma biblioteca com todo o conhecimento da terra média.</p>
+                  </div>
+                  <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col bg-body-secondary link-offset-1-hover">
+                <div class="card h-100 bg-warning-subtle">
+                  <img src="./imagens/carousel/argonats.jpg" class="card-img-top" alt="..." width="200" height="300">
+                  <div class="card-body">
+                    <h5 class="card-title">Argonath</h5>
+                    <h1 class="card-subtitle">R$ 30.000,00</h1>
+                    <p class="card-text">Para quem gosta de pescar, temos rios maravilhosos com vistas dos Argonath.</p>
+                  </div>
+                  <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col bg-body-secondary link-offset-1-hover">
+                <div class="card h-100 bg-warning-subtle">
+                  <img src="./imagens/carousel/valfenda.jpg" class="card-img-top" alt="..." width="200" height="300">
+                  <div class="card-body">
+                    <h5 class="card-title">Valfenda</h5>
+                    <h1 class="card-subtitle">R$ 150.000,00</h1>
+                    <p class="card-text">Um dos locais mais lindos da terra, cheio de encanto e magia dos elfos.</p>
+                  </div>
+                  <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
+
+
+
+
+
+</section>
+
+<section class="container-fluid bg-warning text-center p-2">
+<table class="table table-warning table-striped table-hover table-bordered border-warning">
+    <caption>Descrição dos serviços e respectivos valores</caption>
+        <thead class="table-secondary">
+             <tr>
+             <! –th cria centraliza em negrito–>
+                  <th>Serviços</th>
+                  <th>Valor</th>
+             </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            <tr>
+                <td>Reserva do hotel</td>
+                <td>150,00</td>
+            </tr>
+            <tr>
+                <td>Compra de passagem</td>
+                <td>100,00</td>
+            </tr>
+            <tr>
+                <td>Aluguél de Carros</td>
+                <td>50,00</td>
+            </tr>
+         </tbody>
+    </table>
+</section>
+<! –FORMULÁRIO DE CONTATO–>
+<section class="container-fluid bg-light text-center p-2">
+    
+<! –Required é um campo obrigatório–>
+<! –O campo senha caso necessário o type=password–>
+
+    <h2 class="text-center">Faça já seu orçamento</h2>
+    <form method="GET" action="">
+
+        <fieldset> 
+            <legend>Dados da viagem</legend>  
+
+            <div class="mb-3">
+                <label class="form-label">Nome</label>
+                <input class="form-control" type=""text" name="Nome"><br><br>
+            </div>
+            <div class="mb-3">
+                 <label class="form-label">Email</label>        
+                 <input class="form-control" type="email" Required name="Email"><br><br>
+            </div>
+            <div class="mb-3">
+                  <label class="form-label">Data de ida</label>
+                  <input class="form-control" type="date" name="dataIda"><br><br>
+            </div>
+            <div class="mb-3">
+                   <label class="form-label">Data de volta</label>
+                   <input class="form-control" type="date" name="dataVolta"><br><br>
+            </div>
+            <div class="mb-3">
+                   <label class="form-label">Quabtidadede pessoas</label>
+                   <input class="form-control" type="number" name="qtdPessoas">
+            </div>
+    </fieldset>
+     
+
+
+        <fieldset>
+        <legend>Quais Serviços deseja contratar?</legend>
+
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="passagens" value="passagens" id="passagens">
+        <label class="form-check-label" for="passagens">
+            Compra de passagem           
+        </label>
+        
+        </div>
+        
+        <div class="form-check">
+            <input type="checkbox"  class="form-check-input" name="hospedagem" value="hospedagem" id="hospedagem">
+        <label class="form-check-label" for="hospedagem">
+            Reserva de hospedagem
+        </label>
+        </div>
+        
+        <div class="form-check">
+            <input type="checkbox"  class="form-check-input"  name="veiculo" value="veiculo" id="veiculo">
+        <label class="form-check-label" for="veiculo">
+            Reserva de veículo
+        </label>
+        </div>
+
+        </fieldset>
+
+ 
+        <fieldset>
+            <legend>Escolha o prazo para pagamento</legend>
+            <select name="prazoPagamento">
+                <option value="aVista">À vista</option>
+                <option value="5x">5x sem juros</option>
+                <option value="10x" selected>10x com juros</option>
+            </select>
+        </fieldset>
+
+        <label>Comentário</label><br>
+        <textarea rows="5" name="Comentario"></textarea><br><br>
+       
+        <button class="btn btn-secondary">Salvar</button>
+    </form>
+</section>
+
+<br><br>
+
+<! –Rodapé da Página HTML–>
+<footer class="container-fluid bg-warning text-center p-2  fixed-bottom">
+   Desenvolvido por Tarcísio Rocha 
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Suas compras</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         Produto adicionado ao Carrinho!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+          <a href="./checkout.html"  type="button" class="btn btn-success">Finalizar compra</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</html>
